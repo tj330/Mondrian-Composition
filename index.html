@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Composition</title>
+  <style>
+    
+    html {
+      background-color: #232629;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+    .container{
+      display: grid;
+      background-color: #000;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+    }
+
+    .first-section {
+      display: flex;
+      gap: 9px;
+    }
+
+    .first {
+      height: 414px;
+      width: 320px;
+      background-color: #E72F24;
+    }
+
+    .second {
+      height: 414px;
+      width: 419px;
+      background-color: #F0F1EC;
+    }
+
+    .second-part {
+      display: flex;
+      gap: 9px;
+    }
+    .third {
+      height: 296px;
+      width: 320px;
+      background-color: #F0F1EC;
+    }
+
+    .fourth {
+      height: 296px;
+      width: 360px;
+      background-color: #F0F1EC;
+    }
+
+    .third-part {
+      display: flex;
+      gap: 9px;
+    }
+
+    .lower{
+      display: flex;
+      gap: 9px;
+    }
+    .lower1 {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .fifth {
+      height: 20px;
+      width: 320px;
+      background-color: #F0F1EC;
+    }
+
+    .sixth {
+      height: 20px;
+      width: 198px;
+      background-color: #F9D01E;
+    }
+
+    .seventh {
+      height: 20px;
+      width: 153px;
+      background-color: #232629;
+    }
+
+    .lower2 {
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .eighth {
+      width:50px;
+      height: 130px;
+      background-color: #004592;
+      border-bottom: solid #000 10px;
+    }
+
+    .ninth {
+      width:50px;
+      height: 185px;
+      background-color: #F0F1EC;
+    }
+    .item {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+</body>
+<div class="container">
+  <div class="first-section">
+    <div class="first item"></div>
+    <div class="second item"></div>
+  </div>
+
+  <div class="lower">
+    <div class="lower1">
+      <div class="second-part">
+      <div class="third"></div>
+      <div class="fourth"></div>
+    </div>
+    
+    <div class="third-part">
+      <div class="fifth"></div>
+      <div class="sixth"></div>
+      <div class="seventh"></div>
+    </div>
+    </div>
+    
+    <div class="lower2">
+      <div class="eighth"></div>
+      <div class="ninth"></div>
+    </div>
+  </div>
+  
+  
+  
+</div>
+</html>
